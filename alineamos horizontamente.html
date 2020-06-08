@@ -1,0 +1,85 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="css/bootstrap.css">
+
+</head>
+<style type="text/css">
+    .borde{
+        background-color: gray;
+        height:100px;
+        text-align: center;
+
+    }
+
+    .borde1{
+        background-color: aquamarine;
+        height: 50px;
+        text-align: center;
+
+    }
+
+    .borde2{
+        background-color: olivedrab;
+        height: 50px;
+        text-align: center;
+
+    }
+
+    .borde3{
+        background-color: orangered;
+        height: 50px;
+        text-align: center;
+    }
+
+</style>
+
+<body>
+
+
+    <div class="container border" style="height: 500px;">
+        <!-- hacer una fla de color aquamarine -->
+        <!-- para valla a la derecha se una end(se cambiara a partir de sm) -->
+        <!-- start->izq, center->centro, end->der las cajas que estan dentro del div padre -->
+        <div class="row justify-content-sm-end borde1">
+            <div class="col-4 borde2">
+                <p>UNO</p>
+            </div>
+            
+            <div class="col-4 borde3">
+                <P>DOS</P>
+            </div>
+        </div>
+
+
+
+        <div class="row justify-content-between borde1">
+            <div class="col-2 borde2">
+                <p>UNO</p>
+            </div>
+            
+            <div class="col-2 borde3">
+                <P>DOS</P>
+            </div>
+            <div class="col-2 borde2">
+                <p>TRES</p>
+            </div>
+            
+            <div class="col-2 borde3">
+                <P>CUATRO</P>
+            </div>
+        </div>        
+    </div>
+    
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+
+</body>
+</html>
